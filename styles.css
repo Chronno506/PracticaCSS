@@ -1,0 +1,261 @@
+/* EJERCICIO 1
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box{
+width: 200px;
+height: 200px;
+padding: 10px;
+border: 1px solid black;
+margin: 10px;
+}
+
+.box-1{
+background-color: aqua;
+}
+
+.box-2{
+background-color: red;
+}
+
+.box-3{
+background-color: blueviolet;
+}
+*/
+
+/* EJERCICIO 2
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    position: absolute;
+}
+
+.box-1{
+background-color: aqua;
+top: 0;
+left: 0;
+}
+
+.box-2{
+background-color: red;
+top: 200px;
+left: 200px;
+}
+
+.box-3{
+background-color: blueviolet;
+top: 400px;
+left: 400px;
+}
+
+*/
+
+/* EJERCICIO 3
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    position: absolute;
+}
+
+.box-1 {
+    background-color: aqua;
+    top: 0;
+    left: 50%;
+    animation: stretch 5s infinite;
+
+}
+
+.box-2 {
+    background-color: red;
+    top: 200px;
+    left: 50%;
+    animation: move 2s infinite;
+}
+
+.box-3 {
+    background-color: blueviolet;
+    top: 400px;
+    left: 50%;
+    animation: changecolor 3s infinite;
+}
+
+@keyframes stretch {
+    0% {
+        transform: scaleX(1);
+    }
+    50% {
+        transform: scaleX(10);
+    }
+    100% {
+        transform: scaleX(1); 
+    }
+}
+
+@keyframes move {
+   from {
+        left: 50%;
+    }
+    to{
+        left: 100%;
+    }
+}
+
+@keyframes changecolor {
+    from{
+        background-color: blueviolet;
+    }
+    to{
+        background-color: brown;
+    }
+}
+*/
+
+/*EJERCICIO 5 
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    position: absolute;
+}
+
+.box-1 {
+    background-color: aqua;
+    top: 0;
+    left: 50%;
+ 
+}
+
+.box-2 {
+    background-color: red;
+    top: 200px;
+    left: 50%;
+}
+
+.box-3 {
+    background-color: blueviolet;
+    top: 400px;
+    left: 50%;
+}
+
+@media (max-width:400px) {
+
+
+
+.box{
+    width: 100%;
+    margin: 0%;    
+  } 
+.box-1{
+   left: 0%; 
+} 
+
+.box-2{
+    left: 0%;
+} 
+.box-3{
+    left: 0%;
+} 
+
+} */
+
+/*  EJERCICIO 5
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.box-1 {
+    background-color: aqua;
+    top: 0;
+    left: 50%;
+ 
+}
+
+.box-2 {
+    background-color: red;
+    top: 200px;
+    left: 50%;
+}
+
+.box-3 {
+    background-color: blueviolet;
+    top: 400px;
+    left: 50%;
+}
+
+@media (max-width:400px) {
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 100 auto;
+        row-gap: 100px;
+        
+    }
+
+
+
+    } 
+    */
+
+    .box-1 {
+        background-color: aqua;
+       
+     
+    }
+    
+    .box-2 {
+        background-color: red;
+        
+    }
+    
+    .box-3 {
+        background-color: blueviolet;
+
+    }
+
+    .box-4{
+        background-color: brown;
+    }
